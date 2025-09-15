@@ -1,1 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Share | Connect & Grow</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #0078ff, #00c6ff);
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    nav {
+      background: #222;
+      padding: 0.5rem;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #00c6ff;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .card h3 {
+      margin-bottom: 10px;
+      color: #0078ff;
+    }
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+    .btn {
+      display: inline-block;
+      background: #0078ff;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 25px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #005ecb;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Page Share</h1>
+    <p>Where Ideas, Stories & Inspiration Connect 🌐</p>
+    <a href="https://facebook.com/PageShare" class="btn" target="_blank">Visit Our FB Page</a>
+  </header>
 
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">What We Share</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      <strong>Page Share</strong> is a creative hub where we share knowledge, motivation, entertainment, 
+      and inspiration to help people connect and grow together. 
+      Our mission is to spread positivity, valuable information, and stories that matter. 🚀
+    </p>
+  </section>
+
+  <section id="services">
+    <h2>What We Share</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Motivation</h3>
+        <p>Daily inspiring posts & stories to keep you focused and positive.</p>
+      </div>
+      <div class="card">
+        <h3>Education</h3>
+        <p>Useful tips, facts, and knowledge sharing for curious minds.</p>
+      </div>
+      <div class="card">
+        <h3>Entertainment</h3>
+        <p>Fun content, memes, and engaging posts for relaxation.</p>
+      </div>
+      <div class="card">
+        <h3>Community</h3>
+        <p>Engaging with followers, Q&A sessions, and discussions.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <h2>Our Gallery</h2>
+    <p>✨ A glimpse of our latest posts and creations coming soon!</p>
+    <img src="https://via.placeholder.com/900x400.png?text=Page+Share+Gallery" alt="Gallery" style="width:100%;border-radius:10px;">
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Want to collaborate, share your ideas, or join our team? Reach out!</p>
+    <form>
+      <input type="text" placeholder="Your Name" style="padding:10px;width:100%;margin:5px 0;"><br>
+      <input type="email" placeholder="Your Email" style="padding:10px;width:100%;margin:5px 0;"><br>
+      <textarea placeholder="Your Message" style="padding:10px;width:100%;margin:5px 0;height:100px;"></textarea><br>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Page Share | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
